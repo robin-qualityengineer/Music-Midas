@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <!-- Plugins CSS -->
+  <link rel="stylesheet" href="./plugins/bootstrap-4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./plugins/meanmenu/meanmenu.css">
+  <link rel="stylesheet" href="./plugins/slick-1.8.1/slick.css">
+  <link rel="stylesheet" href="./plugins/fancybox-master/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="./plugins/aos-animation/aos.css">
+  <!-- fonts -->
+  <link rel="stylesheet" href="./fonts/ep-icon-fonts/css/style.css">
+  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.min.css">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./css/settings.css">
+  <link rel="stylesheet" href="./css/register.css">
+</head>
+  <body>
+    <div class="hero">
+      <div class="form-box">
+        <div class="button-box">
+          <div id="btn"> 
+            </div>
+              <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+              <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+          <div class="social-icons">
+            <img src="./image/facebook.png">
+            <img src="./image/twitter.png">
+          </div>
+            <form id=login class="input-group">
+              <input type="text" class="input-feild" placeholder="User ID" required>
+              <input type="text" class="input-feild" placeholder="Enter Password" required>
+              <input type="checkbox" class="check-box"><span>Remember Password</span>
+              <button type="submit" class="submit-btn">Log in</button>
+              
+              
+            </form>
+            <form id= register class="input-group">
+              <input type="text" class="input-feild" placeholder="Full Name" required>
+              <input type="text" class="input-feild" placeholder="Contact Number" required>
+              <input type="text" class="input-feild" placeholder="Email ID" required>
+              <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+      </div>
+    <script>
+      var x = document.getElementById("login")
+      var y = document.getElementById("register")
+      var z = document.getElementById("btn")
+
+      function register(){
+        x.style.left = "-400px"
+        y.style.left = "50px"
+        z.style.left = "110px"
+      }
+
+      function login(){
+        x.style.left = "50px"
+        y.style.left = "450px"
+        z.style.left = "0px"
+      }
+    </script>
+
+    <!-- Registration SMS -->
+    <script language="javascript">
+      <!--
+      function validateit()
+      {
+        temp = true;
+        if(document.form.name.value == '' || document.form.phone.value == '')
+        {
+          temp = false;
+          alert('Please fill out the Name and Phone field to continue...');
+       }
+        return temp;
+      }
+//-->
+</script>
+  </body>
+</html>
