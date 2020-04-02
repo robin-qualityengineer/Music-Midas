@@ -53,6 +53,10 @@ $('document').ready(function(){
   });
 });
 
+  //====================== Music Player
+
+
+
 
       //======> Composition Slider
 
