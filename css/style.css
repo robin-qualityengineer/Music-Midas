@@ -21983,6 +21983,16 @@
   margin-bottom: 10px;
 }
 
+.hero-content1 h1 {
+  color:  #8B4513;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: -2.33px;
+  line-height: 45px;
+  margin-bottom: 10px;
+}
+
 @media (min-width: 480px) {
   .hero-content h1 {
     font-size: 50px;
@@ -22205,8 +22215,8 @@
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   background: #4ebe86;
   border-radius: 50%;
   -webkit-transition: all 200ms;
